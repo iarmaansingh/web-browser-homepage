@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Home</title>
+</head>
+<body class = "background">
+    <div class="main">
+        <div class="left-panel">
+            <div class="ltp">
+                <p class="date" id="date"></p>
+                <p class="time" id="time"></p>
+            </div>
+            <div class="lbp">
+                <p class="to-do">To-do</p>
+
+                <div class="container">
+                    <div  class="newtask" id="newtask">
+                        <input class="add-text" type="text" placeholder="Add Tasks" id="input-box">
+                        <button class="add-button" onclick="addTask()">Add</button>
+                    </div>
+                    <ul  id="list-container">
+                        <!-- <li class="checked">task 1</li>
+                        <li>task 2</li>
+                        <li>task 3</li> --> 
+                    </ul>
+                
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="right-panel">
+            <div class="rtp">
+                <input placeholder="Search" type="text" class="search" id="i-search" onkeydown="handleKeyPress(event)">
+                <button class="s-button"><img class="s-glass" src="img/Search glass.svg" onclick="search()"></button>                
+            </div>
+            
+            
+            <div class="rbp">
+                <div class="rbp-r">
+                <div class="rbp-i" > <a href="https://www.google.com"> <img class="i-img" src="img/Google-G-logo.svg"> </a> </div>
+                <div class="rbp-i" > <a href="https://www.gmail.com"> <img class="i-img" src="img/Gmail-Logo.svg"> </a> </div>
+		<div class="rbp-i" > <a href="https://www.youtube.com"> <img class="i-img" src="img/YouTube-Logo.svg"> </a> </div>
+                <div class="rbp-i" > <a href="https://www.amazon.in"> <img class="i-img" src="img/Amazon-Logo.svg"> </a> </div>
+                <div class="rbp-i" > <a href="https://www.instagram.com"> <img class="i-img" src="img/Instagram-Logo.svg"> </a> </div>
+                <div class="rbp-i" > <a href="https://www.twitch.com"> <img class="i-img" src="img/Twitch-Logo.svg"> </a> </div>
+                <div class="rbp-i" > <a href="https://www.twitter.com"> <img class="i-img" src="img/x-twitter-logo.svg"> </a> </div>
+		<div class="rbp-i"> <a href="https://www.facebook.com"> <img class="i-img" src="img/facebook-logo.svg"> </a> </div>
+                </div>
+                <div style="margin-top: -30px;" class="rbp-r">
+                    
+                    <div class="rbp-i"> <a href="https://chat.openai.com"> <img class="i-img" src="img/openai-logo.svg"> </a> </div>
+                    <div class="rbp-i"> <a href="https://www.github.com"> <img class="i-img" src="img/GitHub-Icon.svg"> </a> </div>
+                    <div class="rbp-i"> <a href="https://www.kaggle.com"> <img class="i-img" src="img/kaggle-logo.svg"> </a> </div>
+                    <div class="rbp-i"> <a href="https://www.canva.com"> <img class="i-img" src="img/Canva-logo.svg"> </a> </div>
+                    <div class="rbp-i"> <a href="https://www.fiverr.com"> <img class="i-img" src="img/fiverr-logo.svg"> </a> </div>
+                    <div class="rbp-i"> <a href="https://www.upwork.com"> <img class="i-img" src="img/upwork-logo.svg"> </a> </div>
+                    
+                </div>
+                
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
