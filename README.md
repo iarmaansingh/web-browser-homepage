@@ -8,7 +8,7 @@ just a web browser homepage with to-do list
 ### For Startup Page (for Chrome):
 1. Download this repo as a zip and extract it.
 2. Open settings and navigate to "On Startup."
-3. Click "Open a specific page or set of pages" and paste the path of the index page that you extracted.
+3. Click on 'Open a specific page or set of pages,' then click 'Add a new page' and paste the path of the index page that you extracted.
 4. That's it!
 
 ### For Homepage (for Chrome and Brave):
