@@ -1,7 +1,7 @@
 # web-browser-homepage
 just a web browser homepage with to-do list
 
-##Screenshot
+## Screenshot
 ![Screenshot 2024-02-05 125718](https://github.com/manov-ik/web-browser-homepage/assets/126533657/0cda2953-7457-4e31-88d9-942d042eba43)
 
 ## How to Set This as Your Web Browser Startup Page/Home Page
